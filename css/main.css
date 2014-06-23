@@ -1,0 +1,111 @@
+body{
+    background: #eee url("/images/bg.png") center repeat;
+    margin: 0px;
+    padding: 0px;
+}
+.block {
+    border: 1px solid #ccc;
+    background: white;
+    margin: 1em 0em;
+    -webkit-box-shadow: 1px 1px 0 #ffffff;
+    -moz-box-shadow: 1px 1px 0 #ffffff;
+    box-shadow: 1px 1px 0 #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.dialog, .row .dialog, .row-fluid .dialog, .row-fluid [class*="span"].dialog:first-child {
+    margin: 0px auto;
+    margin-top: 5em;
+    float: none;
+    width: 400px;
+}
+
+p.block-heading, a.block-heading, .block-heading a {
+    color: #505050;
+    background: #dddddd;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #dddddd), color-stop(1, #fafafa));
+    background: -ms-linear-gradient(bottom, #dddddd, #fafafa);
+    background: -moz-linear-gradient(center bottom, #dddddd 0%, #fafafa 100%);
+    background: -o-linear-gradient(bottom, #dddddd, #fafafa);
+    filter: progid:dximagetransform.microsoft.gradient(startColorStr='#4d5b76', EndColorStr='#6c7a95');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa',EndColorStr='#dddddd')";
+    display: block;
+    padding-left: 1em;
+    border-top: 1px solid #fff;
+    outline: none;
+    border-bottom: 1px solid #a6a6a6;
+    border-left: none;
+    color: #505050;
+    display: block;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: .85em;
+    line-height: 3em;
+}
+.block{
+    height: 300px;
+}
+.blockReg{
+    height: 700px;
+}
+.block-body {
+    margin: 1em;
+    min-height: .25em;
+}
+#editUser_form {
+    padding-left: 30px;
+}
+.newFile a{
+    color: #ffffff;
+}
+.newFile a:hover{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.fileUpload {
+    padding-left: 40px;
+}
+.avatarUser img {
+    max-height: 350px;
+    width: auto;
+}
+#LoginForm_rememberMe {
+    display: inline-block;
+}
+.rememberMe label {
+    display: inline-block;
+}
+#online_chat {
+    margin-top: 20px;
+    position: relative;
+    height: 480px;
+    overflow: hidden;
+}
+.areaMessage {
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 155px;
+}
+#area {
+    position: absolute;
+    top: 369px;
+    left: 25px;
+}
+#sendMessage{
+    position: absolute;
+    top: 490px;
+    left: 0px;
+}
+.messageChat {
+    word-wrap: break-word;
+    width: 200px;
+}
+.wrapChat{
+    width: 180px;
+}
+

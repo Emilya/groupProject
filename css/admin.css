@@ -1,0 +1,42 @@
+body{
+    background: #eee url("/images/bg.png") center repeat;
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    margin-left: 300px;
+    margin-top: -90px;
+}
+.header{
+    color: #777777;
+    text-shadow: 0 1px 0 #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    height: auto;
+    line-height: 20px;
+}
+.contentUpdate{
+    margin-left: 300px;
+    margin-top: -110px;
+}
+#updateUser_form{
+    padding-left: 30px;
+}
+.newUser a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.newUser a:hover{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.displayParts{
+    display: inline-block;
+}
+#Dependencies_parts label {
+    display: inline-block;
+}
